@@ -1,7 +1,1 @@
 TesteCommit
-<<<<<<< HEAD
-
-Alteração Tiago P
-=======
-Teste2
->>>>>>> 7ced6e5444d6d066d4f5647c8b9c9f8bce758141
