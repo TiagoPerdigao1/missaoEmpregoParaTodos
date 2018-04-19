@@ -9,6 +9,8 @@
         "backpack/backupmanager": "^1.3",
         "backpack/crud": "^3.4",
         "backpack/langfilemanager": "^1.0",
+        "backpack/logmanager": "^2.3",
+        "backpack/settings": "^2.0",
         "barryvdh/laravel-elfinder": "^0.3.12",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
