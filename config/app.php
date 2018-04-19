@@ -153,6 +153,7 @@ return [
          * Package Service Providers...
          */
         Backpack\MenuCRUD\MenuCRUDServiceProvider::class,
+        'Backpack\NewsCRUD\NewsCRUDServiceProvider',
 
         /*
          * Application Service Providers...
