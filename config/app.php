@@ -152,6 +152,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Backpack\MenuCRUD\MenuCRUDServiceProvider::class,
 
         /*
          * Application Service Providers...
