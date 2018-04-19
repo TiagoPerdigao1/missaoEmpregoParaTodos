@@ -39,4 +39,12 @@ class Kernel extends ConsoleKernel
 
         require base_path('routes/console.php');
     }
+
+    // app/Console/Kernel.php
+
+    protected function schedule(Schedule $schedule)
+    {
+        $schedule->command('backup:clean')->daily()->at('10:59');
+        $schedule->command('backup:run')->daily()->at('11:05');
+    }
 }
