@@ -20,7 +20,7 @@ class ProcedureCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\Procedure');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/procedure');
-        $this->crud->setEntityNameStrings('procedure', 'procedures');
+        $this->crud->setEntityNameStrings('procedimento', 'procedimentos');
 
         $this->crud->addColumn([
                                 'name' => 'title',

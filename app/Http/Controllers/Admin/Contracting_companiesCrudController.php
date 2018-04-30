@@ -20,7 +20,7 @@ class Contracting_companiesCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\Contracting_companies');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/contracting_companies');
-        $this->crud->setEntityNameStrings('contracting_companies', 'contracting_companies');
+        $this->crud->setEntityNameStrings('empresa contratante', 'empresas contratantes');
 
          $this->crud->addColumn([
                                 'name' => 'designation',

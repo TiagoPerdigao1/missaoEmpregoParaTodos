@@ -20,7 +20,7 @@ class ConfigurationCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\Configuration');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/configuration');
-        $this->crud->setEntityNameStrings('configuration', 'configurations');
+        $this->crud->setEntityNameStrings('configuração', 'configurações');
 
         $this->crud->addColumn([
                                 'name' => 'description',

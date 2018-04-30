@@ -20,7 +20,7 @@ class Support_entityCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\Support_entity');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/support_entity');
-        $this->crud->setEntityNameStrings('support_entity', 'support_entities');
+        $this->crud->setEntityNameStrings('entidade de apoio', 'entidades de apoio');
 
         $this->crud->addColumn([
                                 'name' => 'designation',

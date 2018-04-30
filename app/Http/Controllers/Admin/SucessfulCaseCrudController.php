@@ -20,7 +20,7 @@ class SucessfulCaseCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\SucessfulCase');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/sucessfulcase');
-        $this->crud->setEntityNameStrings('sucessfulcase', 'sucessful_cases');
+        $this->crud->setEntityNameStrings('caso de sucesso', 'casos de sucesso');
 
         $this->crud->addColumn([
                                 'name' => 'description',
