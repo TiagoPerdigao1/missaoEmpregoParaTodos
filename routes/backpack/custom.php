@@ -18,4 +18,7 @@ Route::group([
 	CRUD::resource('contracting_companies', 'Contracting_companiesCrudController');
 	CRUD::resource('support_entity', 'Support_entityCrudController');
 	CRUD::resource('procedure', 'ProcedureCrudController');
+	CRUD::resource('sub_procedure', 'Sub_procedureCrudController');
+	CRUD::resource('partner', 'PartnerCrudController');
+
 }); // this should be the absolute last line of this file
