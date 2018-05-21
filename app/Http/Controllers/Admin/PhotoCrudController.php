@@ -26,6 +26,9 @@ class PhotoCrudController extends CrudController
         $this->crud->addColumn([
                                 'name' => 'path',
                                 'label' => 'Path',
+                                'type' => 'image',
+                                'height' => '30px',
+                                'width' => '30px',
                             ]);
         $this->crud->addColumn([
                                 'name' => 'link',

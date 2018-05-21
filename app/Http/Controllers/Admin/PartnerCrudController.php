@@ -23,13 +23,17 @@ class PartnerCrudController extends CrudController
         $this->crud->setEntityNameStrings('parceiro', 'parceiros');
 
         $this->crud->addColumn([
+                                'name' => 'imageLink',
+                                'label' => "Imagem",
+                                'type' => 'image',
+                                'height' => '30px',
+                                'width' => '30px',
+                            ]);
+        $this->crud->addColumn([
                                 'name' => 'description',
                                 'label' => "Descrição",
                             ]);
-        $this->crud->addColumn([
-                                'name' => 'imageLink',
-                                'label' => "Path de Imagem",
-                            ]);
+
         $this->crud->addColumn([
                                 'name' => 'url',
                                 'label' => 'Url do Parceiro',

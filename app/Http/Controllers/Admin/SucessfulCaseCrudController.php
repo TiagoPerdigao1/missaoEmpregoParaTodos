@@ -29,6 +29,9 @@ class SucessfulCaseCrudController extends CrudController
         $this->crud->addColumn([
                                 'name' => 'path',
                                 'label' => 'Imagem',
+                                'type' => 'image',
+                                'height' => '30px',
+                                'width' => '30px',
                             ]);
 
         /*
