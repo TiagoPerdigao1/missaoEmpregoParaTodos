@@ -12,9 +12,24 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+
+    return view('home');
 });
 
-Route::get('tiagocepa', function () {
-    return 'Hello World';
+
+
+Route::get('/parceiros', function () {
+
+	$partners = App\Models\Partner::all();
+
+    return view('partners', ['partners' => $partners]);
+});
+
+
+Route::get('/parceiros/{id}', function ($id) {
+
+	$partner = App\Models\Partner::find($id);
+
+    return view('partner', ['partner' => $partner]);
 });
