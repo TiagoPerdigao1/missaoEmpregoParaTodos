@@ -15,13 +15,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="parceiros">Parceiros</a>
+                        <a href="http://local.missaoempregoparatodos.com/parceiros">Parceiros</a>
                     </li>
                     <li>
-                        <a href="banners">Banners</a>
+                        <a href="http://local.missaoempregoparatodos.com/banners">Banners</a>
                     </li>
                     <li>
-                        <a href="entidades_apoio">Entidades de Apoio</a>
+                        <a href="http://local.missaoempregoparatodos.com/entidades_apoio">Entidades de Apoio</a>
+                    </li>
+                    <li>
+                        <a href="http://local.missaoempregoparatodos.com/empresas_contratantes">Empresas Contratantes</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
