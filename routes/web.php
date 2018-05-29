@@ -79,3 +79,65 @@ Route::get('/empresas_contratantes/{id}', function ($id) {
 
     return view('contracting_company', ['contracting_company' => $contracting_company]);
 });
+
+
+Route::get('/casos_sucesso', function () {
+
+	$successful_cases = App\Models\SucessfulCase::all();
+
+    return view('successful_cases', ['successful_cases' => $successful_cases]);
+});
+
+
+Route::get('/casos_sucesso/{id}', function ($id) {
+
+	$successful_case = App\Models\SucessfulCase::find($id);
+
+    return view('successful_case', ['successful_case' => $successful_case]);
+});
+
+Route::get('/configuracoes', function () {
+
+	$configurations = App\Models\Configuration::all();
+
+    return view('configurations', ['configurations' => $configurations]);
+});
+
+
+Route::get('/configuracoes/{id}', function ($id) {
+
+	$configuration = App\Models\Configuration::find($id);
+
+    return view('configuration', ['configuration' => $configuration]);
+});
+
+Route::get('/procedimentos', function () {
+
+	$procedures = App\Models\Procedure::all();
+
+    return view('procedures', ['procedures' => $procedures]);
+});
+
+
+Route::get('/procedimentos/{id}', function ($id) {
+
+	$procedure = App\Models\Procedure::find($id);
+
+    return view('procedure', ['procedure' => $procedure]);
+});
+
+
+Route::get('/sub_procedimentos', function () {
+
+	$sub_procedures = App\Models\Sub_procedure::all();
+
+    return view('sub_procedures', ['sub_procedures' => $sub_procedures]);
+});
+
+
+Route::get('/sub_procedimentos/{id}', function ($id) {
+
+	$sub_procedure = App\Models\Sub_procedure::find($id);
+
+    return view('sub_procedure', ['sub_procedure' => $sub_procedure]);
+});

@@ -26,27 +26,24 @@
                     <li>
                         <a href="http://local.missaoempregoparatodos.com/empresas_contratantes">Empresas Contratantes</a>
                     </li>
+                    <li>
+                        <a href="http://local.missaoempregoparatodos.com/casos_sucesso">Casos de Sucesso</a>
+                    </li>
+                    <li>
+                        <a href="http://local.missaoempregoparatodos.com/configuracoes">Configurações</a>
+                    </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Procedimentos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="http://local.missaoempregoparatodos.com/procedimentos">Procedimentos</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="http://local.missaoempregoparatodos.com/sub_procedimentos">Sub Procedimentos</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -79,7 +76,7 @@
                                 <a href="pricing.html">Pricing Table</a>
                             </li>
                         </ul>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

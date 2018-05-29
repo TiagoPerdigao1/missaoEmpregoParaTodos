@@ -8,7 +8,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Four Column Portfolio
+                <h1 class="page-header">Parceiros
                     <small>Subheading</small>
                 </h1>
             </div>

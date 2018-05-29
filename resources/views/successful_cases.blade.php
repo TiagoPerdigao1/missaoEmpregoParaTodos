@@ -8,7 +8,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Banners
+                <h1 class="page-header">Casos de Sucesso
                     <small>Subheading</small>
                 </h1>
             </div>
@@ -18,11 +18,11 @@
         <!-- Projects Row -->
         <div class="row">
 
-        	@foreach($banners as $banner)
+        	@foreach($successful_cases as $successful_case)
 
         	<div class="col-md-3 img-portfolio">
-                <a href="/banners/{{ $banner->id }}" title="{{ $banner->link }}">
-                    <img class="img-responsive img-hover" src="{{ $banner->path }}" alt="">
+                <a href="/casos_sucesso/{{ $successful_case->id }}" title="{{ $successful_case->description }}">
+                    <img class="img-responsive img-hover" src="{{ $successful_case->path }}" alt="">
                 </a>
             </div>
 
