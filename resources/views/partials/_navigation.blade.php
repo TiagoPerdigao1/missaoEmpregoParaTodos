@@ -17,9 +17,9 @@
                     <li>
                         <a href="http://local.missaoempregoparatodos.com/parceiros">Parceiros</a>
                     </li>
-                    <li>
+                <!--    <li>
                         <a href="http://local.missaoempregoparatodos.com/banners">Banners</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="http://local.missaoempregoparatodos.com/entidades_apoio">Entidades de Apoio</a>
                     </li>
@@ -29,9 +29,9 @@
                     <li>
                         <a href="http://local.missaoempregoparatodos.com/casos_sucesso">Casos de Sucesso</a>
                     </li>
-                    <li>
+                <!--    <li>
                         <a href="http://local.missaoempregoparatodos.com/configuracoes">Configurações</a>
-                    </li>
+                    </li> -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Procedimentos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
