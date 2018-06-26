@@ -14,17 +14,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <!--<li>
                         <a href="http://local.missaoempregoparatodos.com/parceiros">Parceiros</a>
-                    </li>
+                    </li>-->
                 <!--    <li>
                         <a href="http://local.missaoempregoparatodos.com/banners">Banners</a>
                     </li> -->
                     <li>
-                        <a href="http://local.missaoempregoparatodos.com/entidades_apoio">Entidades de Apoio</a>
+                        <a href="http://local.missaoempregoparatodos.com/entidades_apoio">Apoiantes</a>
                     </li>
                     <li>
-                        <a href="http://local.missaoempregoparatodos.com/empresas_contratantes">Empresas Contratantes</a>
+                        <a href="http://local.missaoempregoparatodos.com/empresas_contratantes">Empregadoras</a>
                     </li>
                     <li>
                         <a href="http://local.missaoempregoparatodos.com/casos_sucesso">Casos de Sucesso</a>
@@ -33,7 +33,7 @@
                         <a href="http://local.missaoempregoparatodos.com/configuracoes">Configurações</a>
                     </li> -->
                     <li>
-                        <a class="btn btn-primary" href="#" role="button">Junte-se à Iniciativa</a>
+                        <a class="btn btn-primary" href="#" role="button">Adira à Iniciativa</a>
                     </li>
                     <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
@@ -93,16 +93,9 @@
                 <!--    <li>
                         <a href="http://local.missaoempregoparatodos.com/banners">Banners</a>
                     </li> -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Procedimentos <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="http://local.missaoempregoparatodos.com/procedimentos">Procedimentos</a>
-                            </li>
-                            <li>
-                                <a href="http://local.missaoempregoparatodos.com/sub_procedimentos">Sub Procedimentos</a>
-                            </li>
-                        </ul>
+                   
+                    <li>
+                        <a href="http://local.missaoempregoparatodos.com/procedimentos">Procedimentos</a>
                     </li>
                     <li>
                         <a href="http://local.missaoempregoparatodos.com/entidades_apoio">Contactos</a>
