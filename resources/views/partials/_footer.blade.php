@@ -1,7 +1,7 @@
 <hr>
 
 <!-- Footer -->
-<footer style="background: red;">
+<footer style="background: silver;">
 	<div class="container">
 
     <div class="row">
