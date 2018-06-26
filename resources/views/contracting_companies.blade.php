@@ -8,6 +8,9 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
+                <style>
+                    h1 {text-align: center;}
+                </style>
                 <h1 class="page-header">Empregadoras
                     <small>Subheading</small>
                 </h1>
