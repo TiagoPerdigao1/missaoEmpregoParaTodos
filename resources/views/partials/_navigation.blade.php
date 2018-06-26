@@ -32,17 +32,6 @@
                 <!--    <li>
                         <a href="http://local.missaoempregoparatodos.com/configuracoes">Configurações</a>
                     </li> -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Procedimentos <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="http://local.missaoempregoparatodos.com/procedimentos">Procedimentos</a>
-                            </li>
-                            <li>
-                                <a href="http://local.missaoempregoparatodos.com/sub_procedimentos">Sub Procedimentos</a>
-                            </li>
-                        </ul>
-                    </li>
                     <li>
                         <a class="btn btn-primary" href="#" role="button">Junte-se à Iniciativa</a>
                     </li>
