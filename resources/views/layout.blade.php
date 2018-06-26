@@ -127,6 +127,7 @@
   <body>
 
   	@include('partials._navigation')
+  	@include('partials._navigation')
     
     @yield('content')
 
