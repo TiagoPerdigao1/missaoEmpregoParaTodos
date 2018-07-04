@@ -126,11 +126,20 @@
 
   <body>
 
-  	@include('partials._navigation')
-    
-    @yield('content')
 
-    @include('partials._footer')
+  	<header class="row">
+        @include('partials._navigation')
+    </header>
+    
+    <div id="main" class="row">
+
+            @yield('content')
+
+    </div>
+
+    <footer class="row">
+        @include('partials._footer')
+    </footer>
 
 
 
