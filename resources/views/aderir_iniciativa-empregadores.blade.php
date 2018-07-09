@@ -40,28 +40,28 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
-		    			<label for="nomeEmpregador">Nome da Empresa</label>
-		    			<input type="text" class="form-control" id="nomeEmpresa" placeholder="Empresa" name="name">
+		    			<label for="designation">Nome da Empresa</label>
+		    			<input type="text" class="form-control" id="designation" placeholder="Empresa" name="designation">
 		  			</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-		    			<label for="setorEmpregador">Setor de atividade</label>
-		    			<input type="text" class="form-control" id="setorEmpregador" placeholder="Setor de atividade" name="setor">
+		    			<label for="activity_sector">Setor de atividade</label>
+		    			<input type="text" class="form-control" id="activity_sector" placeholder="Setor de atividade" name="activity_sector">
 		  			</div>
 		  		</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
-		    			<label for="produtosEmpregador">Produtos e Serviços</label>
-		   				<input type="text" class="form-control" id="produtosEmpregador" placeholder="Produtos e Serviços" name="products">
+		    			<label for="products_services">Produtos e Serviços</label>
+		   				<input type="text" class="form-control" id="products_services" placeholder="Produtos e Serviços" name="products_services">
 		  			</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-		    			<label for="localidadeEmpregador">Localidade</label>
-		    			<input type="text" class="form-control" id="localidadeEmpregador" placeholder="Localidade" name="localidade">
+		    			<label for="locale">Localidade</label>
+		    			<input type="text" class="form-control" id="locale" placeholder="Localidade" name="locale">
 		  			</div>
 		  		</div>
 			</div>

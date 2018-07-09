@@ -182,11 +182,11 @@ Route::post('/adira_iniciativa/empregadores', function (Request $request) {
 
 
     $validator = Validator::make($request->all(), [
-        'name' => 'required',
+        'designation' => 'required',
         'email' => 'required|email',
         'phone' => 'required|numeric|max:value = 9',
         'nameResponsavel' => 'required',
-        'localidade' => 'required',
+        'locale' => 'required',
         'conhecimentoPlataforma' => 'required',
         'logo' => 'required|image',
     ]);
@@ -202,15 +202,15 @@ Route::post('/adira_iniciativa/empregadores', function (Request $request) {
         $path = $request->logo->store('uploads');
     }
 
-    $support = new App\Models\Support_entity;
-    $support->name = $request->input('name');
-    $support->email = $request->input('email');
-    $support->setor = $request->input('setor');
-    $support->products = $request->input('products');
-    $support->localidade = $request->input('localidade');
-    $support->nameResponsavel = $request->input('nameResponsavel');
-    $support->phone = $request->input('phone');
-    $support->conhecimentoPlataforma = $request->input('conhecimentoPlataforma');
+    $support = new App\Models\Contracting_companies;
+    $support->designation = $request->input('designation');
+  //  $support->email = $request->input('email');
+    $support->activity_sector = $request->input('activity_sector');
+    $support->products_services = $request->input('products_services');
+    $support->locale = $request->input('locale');
+  //  $support->nameResponsavel = $request->input('nameResponsavel');
+  //  $support->phone = $request->input('phone');
+  //  $support->conhecimentoPlataforma = $request->input('conhecimentoPlataforma');
     $support->state = 0;
 
     $support->path = $path;

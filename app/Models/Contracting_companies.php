@@ -19,7 +19,7 @@ class Contracting_companies extends Model
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = ['id'];
-    protected $fillable = ['designation','activity_sector','locale','products_services','description_functions','path','state'];
+    protected $fillable = ['designation','activity_sector','locale','products_services','path','state'];
     // protected $hidden = [];
     // protected $dates = [];
 
