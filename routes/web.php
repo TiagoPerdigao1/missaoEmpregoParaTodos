@@ -55,9 +55,10 @@ Route::get('/entidades_apoio', function () {
 
 Route::get('/entidades_apoio/{id}', function ($id) {
 
-	$support_entity = App\Models\Support_entity::find($id);
+    $support_entity = App\Models\Support_entity::find($id);
+	$support_entities_others = App\Models\Support_entity::where('id', '!=', $id)->get();
 
-    return view('support_entity', ['support_entity' => $support_entity]);
+    return view('support_entity', ['support_entity' => $support_entity, 'support_entities_others' => $support_entities_others]);
 });
 
 Route::get('/empresas_contratantes', function () {
@@ -135,4 +136,93 @@ Route::get('/sub_procedimentos/{id}', function ($id) {
 	$sub_procedure = App\Models\Sub_procedure::find($id);
 
     return view('sub_procedure', ['sub_procedure' => $sub_procedure]);
+});
+
+Route::get('/adira_iniciativa/candidato', function () {
+
+
+    return view('aderir_iniciativa-candidato');
+});
+
+use Validator;
+use Illuminate\Http\Request;
+
+use App\Mail\NovoCandidato;
+use Illuminate\Support\Facades\Mail;
+
+Route::post('/adira_iniciativa/candidato', function (Request $request) {
+
+
+    $validator = Validator::make($request->all(), [
+        'nameCandidato' => 'required',
+        'emailCandidato' => 'required|email',
+        'phoneCandidato' => 'required|numeric|max:value = 9',
+        'adressCandidato' => 'required',
+        'zipcode' => 'required',
+        'localidadeCandidato' => 'required',
+        'birthDate' => 'required|date',
+        'conhecimentoPlataformaCandidato' => 'required',
+        'habilitacoes' => 'required',
+    ]);
+
+    if ($validator->fails()) {
+            return redirect('adira_iniciativa/candidato')
+                        ->withErrors($validator)
+                        ->withInput();
+    }
+
+     //Email para onde é enviado o perfil do Candidato
+     Mail::to('spam.spam.pt@gmail.com')->send(new NovoCandidato($request->all()));
+
+     return redirect()->back()->with('message', 'O seu registo foi enviado com Sucesso! Entraremos em contacto brevemente. Obrigado!');
+
+});
+
+Route::post('/adira_iniciativa/empregadores', function (Request $request) {
+
+
+    $validator = Validator::make($request->all(), [
+        'name' => 'required',
+        'email' => 'required|email',
+        'phone' => 'required|numeric|max:value = 9',
+        'nameResponsavel' => 'required',
+        'localidade' => 'required',
+        'conhecimentoPlataforma' => 'required',
+        'logo' => 'required|image',
+    ]);
+
+    if ($validator->fails()) {
+            return redirect()
+                        ->back()
+                        ->withErrors($validator)
+                        ->withInput();
+    }
+
+    if ($request->hasFile('logo')) {
+        $path = $request->logo->store('uploads');
+    }
+
+    $support = new App\Models\Support_entity;
+    $support->name = $request->input('name');
+    $support->email = $request->input('email');
+    $support->setor = $request->input('setor');
+    $support->products = $request->input('products');
+    $support->localidade = $request->input('localidade');
+    $support->nameResponsavel = $request->input('nameResponsavel');
+    $support->phone = $request->input('phone');
+    $support->conhecimentoPlataforma = $request->input('conhecimentoPlataforma');
+    $support->state = 0;
+
+    $support->path = $path;
+
+    $support->save();
+
+    return redirect()->back()->with('message', 'O seu registo foi enviado com Sucesso! Entraremos em contacto brevemente. Obrigado!');
+});
+
+
+Route::get('/adira_iniciativa/empregadores', function () {
+
+
+    return view('aderir_iniciativa-empregadores');
 });

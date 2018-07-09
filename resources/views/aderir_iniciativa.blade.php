@@ -21,7 +21,7 @@
 		<p>She literature discovered increasing how diminution understood. Though and highly the enough county for man. Of it up he still court alone widow seems.
 		</p>
 		
-		<a class="btn btn-primary" href="http://local.missaoempregoparatodos.com/adira_iniciativa" role="button">Registar</a>
+		<a class="btn btn-primary" href="/adira_iniciativa/candidato" role="button">Registar</a>
 		
 	</div>
 	<div class="col-md-6">
@@ -30,7 +30,7 @@
 		<p>She literature discovered increasing how diminution understood. Though and highly the enough county for man. Of it up he still court alone widow seems.
 		</p>
 		
-		<a class="btn btn-primary" href="http://local.missaoempregoparatodos.com/adira_iniciativa" role="button">Registar</a>
+		<a class="btn btn-primary" href="/adira_iniciativa/empregadores" role="button">Registar</a>
 		
 	</div>
 </div>
