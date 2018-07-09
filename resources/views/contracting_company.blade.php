@@ -8,25 +8,40 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
 
-            <div class="col-lg-12">
-                <h1 class="page-header">{{ $contracting_company->description_functions }}
-                    <small>Subheading</small>
-                </h1>
+
+
+            <style>
+                    div.caixa {border-style: solid;}
+                    div.caixa {border-width: thin;}
+                    h3.designacao {margin-bottom: 40px;}
+                </style>
+            <div class="col-md-12" style="text-align: center;">
                 <h1 class="page-header">{{ $contracting_company->designation }}
-                    <small>Subheading</small>
                 </h1>
-                <h1 class="page-header">{{ $contracting_company->activity_sector }}
+                <!--<h1 class="page-header">{{ $support_entity->description }}
                     <small>Subheading</small>
-                </h1>
-                <h1 class="page-header">{{ $contracting_company->locale }}
-                    <small>Subheading</small>
-                </h1>
-                <h1 class="page-header">{{ $contracting_company->products_services }}
-                    <small>Subheading</small>
-                </h1>
-    
-                
+                </h1>-->
             </div>
+            <div class="col-md-12">
+                
+                        <img class="img-responsive img-hover" src="{{ asset($contracting_company->path) }}" alt="" style ="display: block;
+                        margin-left: auto; margin-right: auto; width: 715px; height: 450px;margin-bottom: 50px">
+                    
+                <p style="text-align: center; margin-bottom: 30px">{{ $contracting_company->description_functions }}</p>
+            </div>
+
+            <div class="col-md-12" style="text-align: center;">
+                <h1 class="page-header">Outros Apoiantes
+                </h1>
+                <!--<h1 class="page-header">{{ $support_entity->description }}
+                    <small>Subheading</small>
+                </h1>-->
+            </div>
+            <div class="col-md-12">
+                
+            
+            </div>
+
         </div>
         <!-- /.row -->
 

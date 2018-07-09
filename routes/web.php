@@ -17,21 +17,16 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/adira_iniciativa', function () {
 
 
-Route::get('/parceiros', function () {
-
-	$partners = App\Models\Partner::all();
-
-    return view('partners', ['partners' => $partners]);
+    return view('aderir_iniciativa');
 });
 
+Route::get('/sobre', function () {
 
-Route::get('/parceiros/{id}', function ($id) {
 
-	$partner = App\Models\Partner::find($id);
-
-    return view('partner', ['partner' => $partner]);
+    return view('sobre');
 });
 
 

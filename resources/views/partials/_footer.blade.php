@@ -5,8 +5,16 @@
 	<div class="container">
 
 	    <div class="row">
-	    	<div class="col-sm-6">
-		    	<h6 class="col-sm-12">Entidades Apoiantes</h6>
+	    	<div class="col-sm-9">
+		    	<h6 style="text-align: left" class="col-sm-6">Entidades Apoiantes</h6>
+
+		    
+			    <h6 style="text-align: right" class="col-sm-6">
+			    	<a href="http://local.missaoempregoparatodos.com/entidades_apoio">Ver todas ></a>
+			    </h6>
+			    
+
+		
 		    	<div class="col-sm-12">
 		    		<p></p>
 		    		<a href="http://ipvc.pt">
@@ -52,7 +60,7 @@
 		        <h6 class="col-sm-12">Copyright &copy; Missão Emprego Para Todos 2018</h6>
 		    </div> 
 		    <!--Divisão ecrã-->   
-			<div class="col-sm-6">
+			<div class="col-sm-3">
 				<h6 class="col-sm-12">Contactos</h6>
 		    	
 		    	<div class="col-sm-12" style="color:blue;">

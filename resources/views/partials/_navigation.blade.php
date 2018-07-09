@@ -33,7 +33,7 @@
                         <a href="http://local.missaoempregoparatodos.com/configuracoes">Configurações</a>
                     </li> -->
                     <li>
-                        <a class="btn btn-primary" href="#" role="button">Adira à Iniciativa</a>
+                        <a class="btn btn-primary" href="http://local.missaoempregoparatodos.com/adira_iniciativa" role="button">Adira à Iniciativa</a>
                     </li>
                     <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
@@ -92,7 +92,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="http://local.missaoempregoparatodos.com/parceiros">Sobre</a>
+                            <a href="http://local.missaoempregoparatodos.com/sobre">Sobre</a>
                         </li>
                     <!--    <li>
                             <a href="http://local.missaoempregoparatodos.com/banners">Banners</a>

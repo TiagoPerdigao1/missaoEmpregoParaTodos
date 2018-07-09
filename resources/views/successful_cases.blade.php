@@ -44,6 +44,7 @@
 
                 <div class="caixa">
 
+
                     <a href="/casos_sucesso/{{ $successful_case->id }}" title="{{ $successful_case->description }}">
                         <img class="img-responsive img-hover" src="{{ $successful_case->path }}" alt="">
                     </a>
