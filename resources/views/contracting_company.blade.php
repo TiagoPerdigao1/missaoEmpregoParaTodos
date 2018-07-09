@@ -18,7 +18,7 @@
             <div class="col-md-12" style="text-align: center;">
                 <h1 class="page-header">{{ $contracting_company->designation }}
                 </h1>
-                <!--<h1 class="page-header">{{ $support_entity->description }}
+                <!--<h1 class="page-header">{{ $contracting_company->description }}
                     <small>Subheading</small>
                 </h1>-->
             </div>
@@ -38,7 +38,7 @@
             <div class="col-md-12" style="text-align: center;">
                 <h1 class="page-header">Outros Apoiantes
                 </h1>
-                <!--<h1 class="page-header">{{ $support_entity->description }}
+                <!--<h1 class="page-header">{{ $contracting_company->description }}
                     <small>Subheading</small>
                 </h1>-->
             </div>
