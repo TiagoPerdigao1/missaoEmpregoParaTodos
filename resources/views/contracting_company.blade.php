@@ -27,8 +27,13 @@
                         <img class="img-responsive img-hover" src="{{ asset($contracting_company->path) }}" alt="" style ="display: block;
                         margin-left: auto; margin-right: auto; width: 715px; height: 450px;margin-bottom: 50px">
                     
+                <p style="text-align: center; margin-bottom: 30px">{{ $contracting_company->activity_sector }}</p>
+
                 <p style="text-align: center; margin-bottom: 30px">{{ $contracting_company->description_functions }}</p>
-            </div>
+
+                <p style="text-align: center; margin-bottom: 30px">{{ $contracting_company->locale }}</p>
+
+                <p style="text-align: center; margin-bottom: 30px">{{ $contracting_company->products_services }}</p>
 
             <div class="col-md-12" style="text-align: center;">
                 <h1 class="page-header">Outros Apoiantes
