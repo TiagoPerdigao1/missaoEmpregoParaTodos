@@ -14,21 +14,21 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <img src="{{ asset('uploads/IndvDef.png') }}" alt="Snow" width="1900" height="1080">
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>Adere á Iniciativa</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <img src="{{ asset('uploads/IndvDef.png') }}" alt="Snow" width="1900" height="1080">
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>Consulta quem apoia</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <img src="{{ asset('uploads/IndvDef.png') }}" alt="Snow" width="1900" height="1080">
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2>Vê os nossos casos de sucesso</h2>
                 </div>
             </div>
         </div>
@@ -48,39 +48,41 @@
 
     	<!-- Portfolio Section -->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
+            <div class="col-lg-12" style="text-align: center;">
+                <h1 class="page-header">Projeto</h1>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+            <p>Man request adapted spirits set pressed. Up to denoting subjects sensible feelings it indulged directly. We dwelling elegance do shutters appetite yourself diverted. Our next drew much you with rank. Tore many held age hold rose than our. She literature sentiments any contrasted. Set aware joy sense young now tears china shy.</p>
+
+            <p style="margin-bottom: 5%">Ladies others the six desire age. Bred am soon park past read by lain. As excuse eldest no moment. An delight beloved up garrets am cottage private. The far attachment discovered celebrated decisively surrounded for and. Sir new the particular frequently indulgence excellence how. Wishing an if he sixteen visited tedious subject it. Mind mrs yet did quit high even you went. Sex against the two however not nothing prudent colonel greater. Up husband removed parties staying he subject mr.</p>
+
+
+
+            <div align="center">
+                <a class="btn btn-primary" href="http://local.missaoempregoparatodos.com/sobre" role="button" style="margin-bottom: 7%; align-self: center;">Conheça a história</a>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+
+            <div class="col-sm-12">
+                <div class="col-sm-4">
+                    <a href="http://local.missaoempregoparatodos.com/empresas_contratantes">
+                        <img src="{{ asset('uploads/homeapoiantes.png') }}" alt="Snow">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://local.missaoempregoparatodos.com/entidades_apoio">
+                        <img src="{{ asset('uploads/homeapoiantes.png') }}" alt="Snow">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://local.missaoempregoparatodos.com/casos_sucesso">
+                        <img src="{{ asset('uploads/homeapoiantes.png') }}" alt="Snow">
+                    </a>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
+            
+
+            
+
+
         </div>
         <!-- /.row -->
 

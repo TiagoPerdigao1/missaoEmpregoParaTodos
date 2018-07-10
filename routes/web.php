@@ -29,6 +29,12 @@ Route::get('/sobre', function () {
     return view('sobre');
 });
 
+Route::get('/procedimentos', function () {
+
+
+    return view('procedimentos');
+});
+
 
 Route::get('/banners', function () {
 
@@ -107,12 +113,6 @@ Route::get('/configuracoes/{id}', function ($id) {
     return view('configuration', ['configuration' => $configuration]);
 });
 
-Route::get('/procedimentos', function () {
-
-	$procedures = App\Models\Procedure::all();
-
-    return view('procedures', ['procedures' => $procedures]);
-});
 
 
 Route::get('/procedimentos/{id}', function ($id) {

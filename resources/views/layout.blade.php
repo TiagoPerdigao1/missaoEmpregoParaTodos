@@ -56,6 +56,22 @@
 		    opacity: 0.8;
 		}
 
+		.mainNavbar {
+		}
+
+		.affix{
+			top: 70px;
+		}
+
+		.warper{
+			text-align: center;
+		}
+
+		.button{
+			position: absolute;
+			top: 50%;
+		}
+
 		/* Home Page Carousel */
 
 		header.carousel {
