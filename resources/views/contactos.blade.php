@@ -102,9 +102,6 @@
             <label for="mensagemContacto">Mensagem</label>
             <input type="text" class="form-control" id="mensagemContacto" placeholder="Mensagem" name="messageContacto">
           </div>
-          
-          
-
 
           <button type="submit" class="btn btn-default">Enviar</button>
         </form>
