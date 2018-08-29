@@ -96,7 +96,7 @@
                             <a href="http://local.missaoempregoparatodos.com/procedimentos">Procedimentos</a>
                         </li>
                         <li>
-                            <a href="http://local.missaoempregoparatodos.com/entidades_apoio">Contactos</a>
+                            <a href="http://local.missaoempregoparatodos.com/contactos">Contactos</a>
                         </li>
                     <!--    <li>
                             <a href="http://local.missaoempregoparatodos.com/configuracoes">Configurações</a>

@@ -35,6 +35,13 @@ Route::get('/procedimentos', function () {
     return view('procedimentos');
 });
 
+Route::get('/contactos', function () {
+
+    return view('contactos');
+});
+
+
+
 
 Route::get('/banners', function () {
 
@@ -148,7 +155,36 @@ use Validator;
 use Illuminate\Http\Request;
 
 use App\Mail\NovoCandidato;
+
 use Illuminate\Support\Facades\Mail;
+
+use App\Mail\NovoContacto;
+
+Route::post('/contactos', function (Request $request) {
+
+
+    $validator = Validator::make($request->all(), [
+        'nameContacto' => 'required',
+        'emailContacto' => 'required|email',
+        'subjectContacto' => 'required',
+        'messageContacto' => 'required',
+    ]);
+
+    if ($validator->fails()) {
+            return redirect('contactos')
+                        ->withErrors($validator)
+                        ->withInput();
+    }
+
+     //Email para onde é enviado o perfil do Candidato
+     Mail::to('spam.spam.pt@gmail.com')->send(new NovoContacto($request->all()));
+
+     return redirect()->back()->with('message', 'O seu contacto foi enviado com Sucesso! Entraremos em contacto brevemente. Obrigado!');
+
+});
+
+
+
 
 Route::post('/adira_iniciativa/candidato', function (Request $request) {
 
